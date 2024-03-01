@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+}
+.image-container {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.image-container img {
+    width: 500px;
+    height: auto;
+}
+button{
+    width: 500px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    margin: -5px;
+    background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c  51%, #00c3ff  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+button:hover{
+    background-position: right center;
+    color: #fff;
+}
